@@ -1,0 +1,87 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.wrapper{
+    background: url("./image/flower2.jpg") no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.navbar{
+    height: 80px;
+    width: 100%;
+    background: rgba(105, 94, 94, 0.4);
+}
+.logo{
+    width: 140px;
+    height: auto;
+    padding: 10px 90px;
+}
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+}
+.navbar ul li{
+    list-style: none;
+    margin: 0 8px;
+    display: inline-block;
+    line-height: 80px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 6px 13px;
+    font-size: 20px;
+    font-family: 'Roboto',sans-serif;
+    transition: .3s;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+    background: rgb(241, 206, 49);
+    border-radius: 5px;
+}
+.wrapper .center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: sans-serif;
+    user-select: none;
+}
+.center h1{
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    width: 600px;
+    text-align: center;
+}
+.center h2 {
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    width: 600px;
+    text-align: center;
+}
+.center .buttons{
+    margin:70px 130px;
+}
+.buttons button{
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #f18181;
+    background: rgb(241, 206, 49);
+    border: 1px solid #d8a417;
+    border-radius: 25px;
+    outline: none;
+    cursor: pointer;
+    transition: .3s;
+}
+.buttons .btn{
+    margin-left: 25px;
+}
+.buttons button:hover{
+    background:rgb(241, 164, 64); ;
+}
